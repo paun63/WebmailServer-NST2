@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Podesavanja servera</title>
+      
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:commandButton value="Pokreni smtp server" action="#{mbServer.pokreniSMTPServer()}"/>
+            <h:commandButton value="Zaustavi smtp server" action="#{mbServer.zaustaviSMTPServer()}"/>
+            <h:outputText value="" />
+        </h:form>
+    </h:body>
+</html>

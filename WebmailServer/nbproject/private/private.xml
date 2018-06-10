@@ -3,11 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/FON/Napredne%20softverske%20tehnologije/other/Paun%20radovi%20OAS/Projekat%20Web%20Mail/WebmailServer/src/java/test/SendAttachmentInEmail.java</file>
-            <file>file:/D:/FON/Napredne%20softverske%20tehnologije/other/Paun%20radovi%20OAS/Projekat%20Web%20Mail/WebmailServer/src/java/so/SOVratiListuPoruka.java</file>
-            <file>file:/D:/FON/Napredne%20softverske%20tehnologije/other/Paun%20radovi%20OAS/Projekat%20Web%20Mail/WebmailServer/src/java/smtpServer/MessageHandlerImpl.java</file>
-            <file>file:/D:/FON/Napredne%20softverske%20tehnologije/other/Paun%20radovi%20OAS/Projekat%20Web%20Mail/WebmailServer/src/java/smtpServer/SMTP.java</file>
-            <file>file:/D:/FON/Napredne%20softverske%20tehnologije/other/Paun%20radovi%20OAS/Projekat%20Web%20Mail/WebmailServer/src/java/smtpServer/MessageHandlerFactoryImpl.java</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/src/java/logic/Kontroler.java</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/src/java/domen/Korisnik.java</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/src/java/db/DatabaseBroker.java</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/web/index.xhtml</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/src/java/jsf/mb/MBServer.java</file>
+            <file>file:/C:/Users/P/Documents/NetBeansProjects/WebmailServer%20NST2/WebmailServer/src/java/so/SOPrijavaKorisnika.java</file>
         </group>
     </open-files>
 </project-private>

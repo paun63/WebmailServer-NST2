@@ -9,8 +9,11 @@ import com.sun.mail.smtp.SMTPTransport;
 import db.DatabaseBroker;
 import domen.Korisnik;
 import domen.Poruka;
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.jms.Session;
 import javax.mail.Transport;
 import javax.xml.datatype.XMLGregorianCalendar;
@@ -48,8 +51,14 @@ public class Kontroler {
         return instance;
     }
     
-    public void pokreniSmtpServer()
+    public void pokreniSmtpServer(String mysql,String elastic)
     {
+        try {
+            Process processMysql = new ProcessBuilder(mysql).start();
+            Process processElastic = new ProcessBuilder(elastic).start();
+        } catch (IOException ex) {
+            Logger.getLogger(Kontroler.class.getName()).log(Level.SEVERE, null, ex);
+        }
         smtp.pokreniSMTPServer();
     }
     
